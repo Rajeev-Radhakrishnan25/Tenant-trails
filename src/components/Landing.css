@@ -1,0 +1,51 @@
+.landing {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 140px;
+}
+
+.badge {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 20px;
+  padding: 8px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2563eb;
+  margin-bottom: 32px;
+}
+
+.hero-heading {
+  font-size: 56px;
+  font-weight: 800;
+  color: #0f172a;
+  text-align: center;
+  line-height: 1.15;
+  margin-bottom: 24px;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  color: #64748b;
+  text-align: center;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+.cta-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 80px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}

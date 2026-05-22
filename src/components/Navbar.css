@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 40px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.navbar-logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar-signin {
+  font-size: 15px;
+  color: #1e293b;
+  cursor: pointer;
+}
+
+.navbar-btn {
+  background: #2563eb;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.navbar-btn:hover {
+  background: #1d4ed8;
+}
