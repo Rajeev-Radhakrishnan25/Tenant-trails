@@ -1,10 +1,9 @@
 import "./Button.css";
 
-function Button({ label, onClick, variant }) {
-  const className = variant === "outline" ? "btn btn-outline" : "btn btn-primary";
+function Button({ children, variant = "primary", onClick, type = "button" }) {
   return (
-    <button className={className} onClick={onClick}>
-      {label}
+    <button className={`btn btn-${variant}`} onClick={onClick} type={type}>
+      {children}
     </button>
   );
 }

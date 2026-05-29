@@ -1,22 +1,32 @@
 .feature-card {
+  background: #ffffff;
+  padding: 32px 24px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
   text-align: center;
-  max-width: 220px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.feature-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
 }
 
 .feature-icon {
   font-size: 32px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .feature-title {
-  font-size: 16px;
-  font-weight: 700;
-  color: #0f172a;
-  margin-bottom: 8px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 8px 0;
 }
 
-.feature-desc {
+.feature-description {
   font-size: 14px;
-  color: #64748b;
+  color: #6b7280;
+  margin: 0;
   line-height: 1.5;
 }
